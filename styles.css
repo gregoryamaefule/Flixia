@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+main{
+    background: #EEEEEE;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #13203C66;
+}
+.mobile{
+    display: none;
+}
+.mobileNav{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.mainlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.signuplinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+.loog img{
+    width: 146px;
+    height: 33.58px;
+}
+header ul li a{
+    font-size: 16;
+    font-weight: 600;
+    color: #000000;
+}
+.home{
+    color: #FBBB47;
+}
+.signup{
+    background: #FBBB47;
+    width: 160px;
+    height: 36px;
+    border-radius: 6px;
+    padding: 6px 16px;
+}
+.heroSection{
+    margin: 50px auto 0;
+    width: 86%;
+    text-align: center;
+}
+.heroSection h3{    
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #13203C;
+    margin: 32px 0;
+    padding: 0 10px;
+}
+.heroSection p{    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #13203C;
+    padding: 0 20px;
+    margin-bottom: 32px;
+
+}
+.heroSection button{    
+    width: 214px;
+    height: 68px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #13203C;
+    background: #FBBB47;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-bottom: 32px;
+}
+.heroSection div img{
+    width: 100%;
+    height: 100%;    
+}
+.Copy{
+     background: #13203CCC;
+     padding: 40px 0;
+     text-align: center;
+     color: white;
+}
+.copy{
+    display: flex;
+    gap: 20px;
+    margin: 12px auto;
+    width: 88%;
+}
+.copy div{
+    flex-basis: 1fr;
+}
+.copy div img{
+    width: 100%;
+    height: 80%;
+    margin: 22px;
+}
+.copy div p{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.Copy h2{
+font-size: 80px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.newsletter{
+    margin: 20px auto;
+    width: 88%;
+}
+.newsletter h2{
+    font-family: Josefin Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: #13203C;
+}
+.newsletter form{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 20px 15px;
+gap: 10px;
+}
+.newsletter form input[type=email]{
+    width: 461px;
+    height: 64px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+}
