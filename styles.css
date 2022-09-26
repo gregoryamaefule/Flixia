@@ -269,7 +269,13 @@ footer{
     
     color: #D9DADD;
 }
-@media (max-width:810px){
+@media (max-width:920px){
+    .mainlinks{
+        width: 230px;
+    }
+    .signuplinks{
+        width: 140px;
+    }
     .logo img{
         width: 116px;
         height: 26px;
@@ -348,4 +354,108 @@ footer{
         font-size: 9px;
     }
     
+}
+@media (max-width:600px){
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+    header{
+        width: 95%;
+    }
+    .mobileNav{
+        display: block;
+        cursor: pointer;
+    }
+    .mainlinks, .signuplinks{
+        display: none;
+    }
+    .mobile{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #D9DADD;
+        padding: 30px;
+    }
+    .mobile div{
+        text-align: right;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    .mobile .mainlinksMoblie li{
+        margin-bottom: 15px;
+    }
+    .signuplinksMobile li{
+        margin-bottom: 20px;
+    }
+    .heroSection h3{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .heroSection p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .heroSection button{
+        width: 114px;
+        height: 32px;
+        font-size: 11px;
+    }
+    .heroSection div{
+        margin-bottom: -16px;
+    }
+    .copy{
+        flex-direction: column;
+        width: 90%;
+        gap: 5px;
+    }
+    .copy div img{
+        width: 100%;
+        height: 320px;
+        margin: 12px auto;
+    }
+    .Copy h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .copy div p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .newsletter h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .newsletter form input[type=email]{
+        width: 70%;
+        opacity: 80%;
+    }
+    .footer h3{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .footerP{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .footerDiv , .Nav{
+        flex-direction: column;
+        justify-content:center
+    }
+    .footerLogo{
+        text-align: center;
+    }
+    .footerLogo img{
+        margin: 10px  auto 0;
+    }
+    .footerNav{
+        flex-basis: auto;
+    }
+    .socials{
+        flex-basis: auto;
+        width: 120px;
+        margin-bottom: 13px;
+    }
 }
