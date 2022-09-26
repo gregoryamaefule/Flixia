@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -136,7 +138,7 @@ text-align: center;
 
 }
 .newsletter{
-    margin: 20px auto;
+    margin: 40px auto;
     width: 88%;
 }
 .newsletter h2{
@@ -147,6 +149,7 @@ line-height: 60px;
 letter-spacing: 0em;
 text-align: center;
 color: #13203C;
+margin-bottom: 20px;
 }
 .newsletter form{
     display: flex;
@@ -161,4 +164,104 @@ gap: 10px;
     height: 64px;
     border-radius: 15px 0px 0px 15px;
     border: none;
+    padding-left: 10px;
+    color: #13203C;
+    font-size: 24px;
+    opacity: 90%;
+    cursor: pointer;
+}
+.newsletter form input[type=submit]{
+    width: 160px;
+    height: 64px;
+    background: #FBBB47;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+     background: #13203CCC;
+    padding: 60px 0;
+    color: #D9DADD;
+}
+.footer{
+    margin: 0 auto;
+    width: 88%;
+    text-align: center;
+}
+.footerDiv , .footer nav, .socials, .footerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLogo img{
+    width: 220.69px;
+    height: 69.81px;
+    display: block;
+}
+.footer h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #D9DADD;
+    margin-bottom: 24px;
+}
+.footerP{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D9DADD;
+    margin-bottom: 18px ;
+
+}
+.footerLogo {
+    flex-basis: 60%;
+    text-align: left;
+}
+.footerLogo p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 28px;
+
+}
+.socials{
+    flex-basis: 180px;
+}
+.socials li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 48px;
+    height: 48px;
+
+    background: #D9DADD;
+    border-radius: 30px;
+}
+.Nav{
+    border-top: 1px solid #D9DADD;
+    padding-top: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+.footerNav{
+    flex-basis: 440px;
+    font-family: 'Plus Jakarta Display';
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footerNav a{
+    
+    color: #D9DADD;
 }
