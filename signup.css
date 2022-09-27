@@ -12,12 +12,13 @@ body{
     height: 100vh;
     align-items: center;
     background: #eeeeee;
+    overflow: hidden;
 }
 main{
     width: 80vw;
     height: 94vh;
-    max-width: 1200px;
-    max-height: 600px;
+    /* max-width: 1200px;
+    max-height: 600px; */
     background: rgba(19, 32, 60, 0.1);
     display: flex;
 }
