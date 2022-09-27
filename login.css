@@ -1,0 +1,26 @@
+input[type='submit']{
+    margin: 16px auto 8px;
+    width: 134px;
+    height: 38px;
+    border-radius: 14px;
+}
+.p{
+    margin: 0 auto;
+}
+button{
+    width: 194px;
+    height: 38px;
+    border-radius: 14px;
+    margin: 0 auto;
+    background: inherit;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+button img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
